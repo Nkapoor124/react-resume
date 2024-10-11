@@ -288,5 +288,5 @@ export const contact: ContactSection = {
 
 Social items*/
 export const socialLinks: Social[] = [
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/nkapoor124/\'%7D'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/nkapoor124/'},
 ];
