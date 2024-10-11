@@ -60,11 +60,11 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a Chicago-based <strong className="text-stone-100">Business Management and Technology Specialist</strong>, currently focusing on
-        <strong className="text-stone-100">digital transformation</strong> and business growth strategies.
+        <strong className="text-stone-100"> digital transformation</strong> and business growth strategies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my spare time, you’ll find me exploring new <strong className="text-stone-100">CRM solutions</strong>, refining my
-        <strong className="text-stone-100">project management</strong> skills, or enjoying life in beautiful
+        <strong className="text-stone-100"> project management</strong> skills, or enjoying life in beautiful
         <strong className="text-stone-100"> Carol Stream</strong>.
       </p>
     </>
