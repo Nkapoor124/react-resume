@@ -28,8 +28,10 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Nevin Kapoor Resume',
+  description: "Welcome to my professional platform, where I bring a unique blend of business acumen, technology expertise, and customer experience to help organizations achieve their goals. As an MBA candidate at Illinois Institute of Technology, I have cultivated a deep understanding of business management and technology, with hands-on experience in customer retention, process improvement, and e-commerce strategies.\n" +
+      "\n" +
+      "Whether it’s optimizing customer relationships, enhancing sales funnels, or driving digital transformation, my goal is to deliver measurable outcomes that fuel growth and innovation. Explore my experience, skills, and insights, and discover how I can help your business thrive in today’s competitive landscape",
 };
 
 /**
@@ -53,18 +55,17 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: "I'm Nevin Kapoor.",
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Chicago-based <strong className="text-stone-100">Business Management and Technology Specialist</strong>, currently focusing on
+        <strong className="text-stone-100">digital transformation</strong> and business growth strategies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my spare time, you’ll find me exploring new <strong className="text-stone-100">CRM solutions</strong>, refining my
+        <strong className="text-stone-100">project management</strong> skills, or enjoying life in beautiful
+        <strong className="text-stone-100">Carol Stream</strong>.
       </p>
     </>
   ),
@@ -88,16 +89,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: "I'm Nevin Kapoor, a Business Management and Technology Specialist with a focus on digital transformation, CRM solutions, and project management. I thrive on driving growth and optimizing business processes, with additional expertise in the healthcare sector.",
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Carol Stream, IL', Icon: MapIcon},
+    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Interests', text: 'Project Management, CRM Solutions, Automobiles', Icon: SparklesIcon},
+    {label: 'Study', text: 'MBA in Business/Technology, Illinois Institute of Technology', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Independent Business Consultant with Healthcare Expertise', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -113,63 +111,63 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
+        name: 'Hindi',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        name: 'Punjabi',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Business and Technology',
     skills: [
       {
-        name: 'React Native',
+        name: 'CRM Solutions (Salesforce, Zendesk)',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Project Management',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Market Analysis',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'E-Commerce and Digital Strategy',
+    skills: [
+      {
+        name: 'Shopify/WooCommerce',
+        level: 9,
+      },
+      {
+        name: 'SEO (Search Engine Optimization)',
+        level: 8,
+      },
+      {
+        name: 'Conversion Optimization',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Data and Analytics',
+    skills: [
+      {
+        name: 'Google Analytics',
+        level: 8,
+      },
+      {
+        name: 'KPI/Goal Attainment',
+        level: 7,
+      },
+      {
+        name: 'Data Analysis',
+        level: 7,
       },
     ],
   },
@@ -180,70 +178,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'Salus Securus AI',
+    description: 'A healthcare-focused project providing innovative patient safety solutions for home health, targeting Parkinson’s patients.',
+    url:"",
+    image: "",
   },
 ];
 
@@ -252,39 +190,45 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2023 - December 2024',
+    location: 'Illinois Institute of Technology',
+    title: 'MBA in Business/Technology',
+    content: (
+      <p>
+        Gained expertise in business management and technology, focusing on digital transformation, CRM solutions, and project management. Developed strategic thinking and problem-solving skills through various projects, including the Salus Securus AI project for healthcare.
+      </p>
+    ),
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'July 2018 - Present',
+    location: 'Northwestern Medicine Central DuPage Hospital',
+    title: 'Patient Safety Technician',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Led patient safety initiatives that reduced workplace hazards by 25%. Conducted safety audits and cross-functional team meetings, improving compliance and reducing incidents. Demonstrated strong teamwork and problem-solving skills in a healthcare setting.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2024 - August 2024',
+    location: 'Guesty',
+    title: 'Customer Experience Specialist Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Increased customer retention by 15% through data-driven strategies and personalized service recommendations. Streamlined support procedures by implementing an automated ticketing system, reducing response times by 20%.
+      </p>
+    ),
+  },
+  {
+    date: 'November 2016 - Present',
+    location: 'Self-employed',
+    title: 'E-Commerce Business Consultant',
+    content: (
+      <p>
+        Developed and executed e-commerce strategies, increasing sales by 60% and expanding the customer base by 35%. Implemented CRM systems to optimize customer service and support.
       </p>
     ),
   },
@@ -320,42 +264,29 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out for business inquiries, collaboration, or general questions. I look forward to connecting with you!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'kapoornev18@gmail.com',
+      href: 'mailto:kapoornev18@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Carol Stream, IL, USA',
+      href: 'https://www.google.com/maps/place/Carol+Stream,+IL',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
-    },
-    {
-      type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      type: ContactType.LinkedIn,
+      text: 'nkapoor124',
+      href: 'https://www.linkedin.com/in/nkapoor124/',
     },
   ],
 };
 
 /**
- * Social items
- */
+
+Social items*/
 export const socialLinks: Social[] = [
-<<<<<<< Updated upstream
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
-=======
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/nkapoor124/\'%7D'},
->>>>>>> Stashed changes
 ];
