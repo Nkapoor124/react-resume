@@ -65,7 +65,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my spare time, you’ll find me exploring new <strong className="text-stone-100">CRM solutions</strong>, refining my
         <strong className="text-stone-100">project management</strong> skills, or enjoying life in beautiful
-        <strong className="text-stone-100">Carol Stream</strong>.
+        <strong className="text-stone-100"> Carol Stream</strong>.
       </p>
     </>
   ),
