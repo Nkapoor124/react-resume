@@ -28,7 +28,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Nevin Kapoor Resume',
+  title: 'Nevin Kapoor',
   description: "Welcome to my professional platform, where I bring a unique blend of business acumen, technology expertise, and customer experience to help organizations achieve their goals. As an MBA candidate at Illinois Institute of Technology, I have cultivated a deep understanding of business management and technology, with hands-on experience in customer retention, process improvement, and e-commerce strategies.\n" +
       "\n" +
       "Whether it’s optimizing customer relationships, enhancing sales funnels, or driving digital transformation, my goal is to deliver measurable outcomes that fuel growth and innovation. Explore my experience, skills, and insights, and discover how I can help your business thrive in today’s competitive landscape",
@@ -278,7 +278,7 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.LinkedIn,
-      text: 'nkapoor124',
+      text: 'Nkapoor124',
       href: 'https://www.linkedin.com/in/nkapoor124/',
     },
   ],
