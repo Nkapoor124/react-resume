@@ -178,10 +178,10 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Salus Securus AI',
-    description: 'A healthcare-focused project providing innovative patient safety solutions for home health, targeting Parkinson’s patients.',
+    title: 'Google Project Management Professional Certificate',
+    description: 'A healthcare-focused Certification. --Image is temporary',
     url:"",
-    image: "",
+    image: "GoogleCert",
   },
 ];
 
