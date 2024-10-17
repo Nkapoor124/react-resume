@@ -11,6 +11,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import portfolioImage1 from "../images/portfolio/googlecert.jpg";
 import {
   About,
   ContactSection,
@@ -179,8 +180,8 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Google Project Management Professional Certificate',
     description: 'A healthcare-focused Certification. --Image is temporary',
-    url:"",
-    image: "googlecert",
+    url:"https://www.coursera.org/account/accomplishments/professional-cert/GRFFONALTRYA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof",
+    image: portfolioImage1,
   },
 ];
 
