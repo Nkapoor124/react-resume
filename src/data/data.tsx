@@ -9,9 +9,9 @@ import {
 
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import portfolioImage1 from "../images/portfolio/googlecert.jpg";
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import portfolioImage1 from "../images/portfolio/googlecert.jpg";
 import {
   About,
   ContactSection,
