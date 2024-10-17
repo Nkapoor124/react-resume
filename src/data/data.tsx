@@ -63,9 +63,8 @@ export const heroData: Hero = {
         <strong className="text-stone-100"> digital transformation</strong> and business growth strategies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my spare time, you’ll find me exploring new <strong className="text-stone-100">CRM solutions</strong>, refining my
-        <strong className="text-stone-100"> project management</strong> skills, or enjoying life in beautiful
-        <strong className="text-stone-100"> Carol Stream</strong>.
+        In my spare time, you’ll find me exploring <strong className="text-stone-100">CRM solutions</strong> and <strong>emerging technologies</strong>, refining my
+        <strong className="text-stone-100"> project management</strong> skills, or traveling to discover new cultures.
       </p>
     </>
   ),
@@ -93,7 +92,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Carol Stream, IL', Icon: MapIcon},
     {label: 'Age', text: '28', Icon: CalendarIcon},
-    {label: 'Interests', text: 'Project Management, CRM Solutions, Automobiles', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Project Management, CRM Solutions', Icon: SparklesIcon},
     {label: 'Study', text: 'MBA in Business/Technology, Illinois Institute of Technology', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Independent Business Consultant with Healthcare Expertise', Icon: BuildingOffice2Icon},
   ],
@@ -112,11 +111,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Hindi',
-        level: 8,
+        level: 3,
       },
       {
         name: 'Punjabi',
-        level: 8,
+        level: 4,
       },
     ],
   },
@@ -125,7 +124,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'CRM Solutions (Salesforce, Zendesk)',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Project Management',
@@ -146,11 +145,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'SEO (Search Engine Optimization)',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Conversion Optimization',
-        level: 8,
+        level: 7,
       },
     ],
   },
@@ -163,7 +162,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'KPI/Goal Attainment',
-        level: 7,
+        level: 8,
       },
       {
         name: 'Data Analysis',
@@ -181,7 +180,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Google Project Management Professional Certificate',
     description: 'A healthcare-focused Certification. --Image is temporary',
     url:"",
-    image: "GoogleCert",
+    image: "googlecert",
   },
 ];
 
