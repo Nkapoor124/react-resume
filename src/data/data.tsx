@@ -92,7 +92,7 @@ export const aboutData: About = {
   description: "I'm Nevin Kapoor, a Business Management and Technology Specialist with a focus on digital transformation, CRM solutions, and project management. I thrive on driving growth and optimizing business processes, with additional expertise in the healthcare sector.",
   aboutItems: [
     {label: 'Location', text: 'Carol Stream, IL', Icon: MapIcon},
-    {label: 'Age', text: '28', Icon: CalendarIcon},
+    {label: 'Age', text: '27', Icon: CalendarIcon},
     {label: 'Interests', text: 'Project Management, CRM Solutions', Icon: SparklesIcon},
     {label: 'Study', text: 'MBA in Business/Technology, Illinois Institute of Technology', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Independent Business Consultant with Healthcare Expertise', Icon: BuildingOffice2Icon},
