@@ -26,7 +26,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   // Define email options
   const mailOptions = {
     from: `"${name}" <${email}>`, // sender address
-    to: 'your-email@example.com', // Replace with your own email address
+    to: 'kapoornev18@gmail.com', // Replace with your own email address
     subject: `New message from ${name}`, // Subject line
     text: message, // Plain text body
   };
